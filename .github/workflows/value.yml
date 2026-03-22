@@ -1,0 +1,7 @@
+name: value
+on: push
+jobs:
+  call-greetings:
+    uses: ./.github/workflows/reusable.yml
+    with:
+      name: "Kaviya C"
