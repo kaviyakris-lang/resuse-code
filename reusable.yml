@@ -9,7 +9,7 @@ on:
         type: string
  jobs:
    greetings:
-     runs_on: ubuntu-latest
+     runs-on: ubuntu-22.04
      steps:
        - name: Greeting message
          run: echo "Hi ${{ inputs.name }} Welcome"
